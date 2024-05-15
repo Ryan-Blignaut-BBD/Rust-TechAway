@@ -174,7 +174,7 @@ const initChalkboard = function(Reveal){
 			callback();
 		}
 		else {
-console.log("Wait for pdf pages to be created and drawings to be loaded"); 
+console.log("Wait for pdf docs to be created and drawings to be loaded");
 			setTimeout( whenReady, 500, callback )
 		}
 	}
