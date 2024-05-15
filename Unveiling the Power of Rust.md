@@ -260,7 +260,7 @@ Helps to reduce the usage of mutability
 ## No trade off between ergonomics and speed 
 
 ```rust
-let product_of_cubes: u32 = (1..19)
+let product_of_cubes: u32 = (1..3)
     .map(|x| x.pow(3))
     .product();
 ```
@@ -425,8 +425,17 @@ So hopefully I have convinced you, Now you may be asking where do I start
 ---
 ### Questions
 
-- link to github for slides
-- link to github for markdown doc
+
+
+```html
+Slides:
+https://ryan-blignaut-bbd.github.io/Rust-TechAway/#/
+Markdown:
+https://github.com/Ryan-Blignaut-BBD/Rust-TechAway
+```
+
+
+
 
 
 
